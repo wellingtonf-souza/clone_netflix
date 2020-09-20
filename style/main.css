@@ -144,3 +144,29 @@ header .container {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.titulo {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+
+/* trailer */
+
+.filme-trailer .container {
+  margin-left: 30px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.trailer-descricao .titulo-logo {
+  height: 100px;
+  margin-bottom: 15px;
+  margin-top: 3%;
+}
+
+.trailer-descricao {
+  margin-left: 20px;
+}
