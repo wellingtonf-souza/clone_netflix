@@ -19,7 +19,15 @@ body {
 }
 
 /* Cabecalho superior do site */
-.container {
+header .container {
+  margin-left: 30px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filme-destaque .container {
   margin-left: 30px;
   margin-right: 50px;
   display: flex;
@@ -78,10 +86,16 @@ body {
   justify-content: center;
 }
 
-.filme-destaque .titulo {
+/* .filme-destaque .titulo {
   margin-top: 10%;
   margin-bottom: 80px;
   font-size: 40px;
+} */
+
+.filme-destaque .titulo-logo {
+  height: 150px;
+  margin-bottom: 80px;
+  margin-top: 3%;
 }
 
 .filme-destaque .botoes {
@@ -115,4 +129,18 @@ body {
 .button-play:hover {
   background-color: rgba(128, 128, 128, 10%);
   color: #ffff;
+}
+
+/* secoes de filme */
+.secao .container {
+  margin-left: 30px;
+  margin-right: 50px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.titulo-secao {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
