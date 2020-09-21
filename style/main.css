@@ -248,3 +248,20 @@ footer li {
   font-size: 11px;
   margin-bottom: 20px;
 }
+
+/* responsividade */
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+  .filme-trailer iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .filme-trailer iframe {
+    display: none;
+  }
+  .header_right {
+    display: none;
+  }
+}
